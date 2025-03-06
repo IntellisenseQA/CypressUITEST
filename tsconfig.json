@@ -1,0 +1,10 @@
+
+  {
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "baseUrl": "./",
+        "paths": {
+            "@pages/*": ["cypress/e2e/pages/*"]
+        }
+    }
+}
