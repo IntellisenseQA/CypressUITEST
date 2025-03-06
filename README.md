@@ -11,18 +11,12 @@ npm install cypress @types/cypress cucumber @cucumber/cucumber cypress-cucumber-
 This application was tailored to test <https://exampletesturl> but you can run it for any other url by updating the `baseurl` in `cypress.json`.
 ## Project Structure
 .
-├── cypress
-│   ├── e2e
-│   │   ├── feature1.feature          # Feature file with scenarios using Data Table
-│   │   ├── feature2.feature          # Feature file with Scenario Outline
-│   │   ├── api.feature               # Feature file for API testing
-│   ├── support
-│   │   ├── pageObjects               # Page Object Model files
-│   │   ├── step_definitions          # Step definitions for feature files
-│   ├── reports                       # Test reports directory
-│   ├── fixtures                      # Test data
-├── cypress.config.ts                 # Cypress configuration
-├── package.json                      # Project dependencies and scripts
+- cypress
+  - e2e
+  - support
+    - pageObjects
+    - step_definitions
+  - fixtures
 
 ## Run tests
 
