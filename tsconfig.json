@@ -4,7 +4,7 @@
         "esModuleInterop": true,
         "baseUrl": "./",
         "paths": {
-            "@pages/*": ["cypress/e2e/pages/*"]
+            "@pages/*": ["cypress/integration/pages/*"]
         }
     }
 }
