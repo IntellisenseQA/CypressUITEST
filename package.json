@@ -2,7 +2,7 @@
   "name": "cypressautomatio",
   "version": "1.0.0",
   "description": "UIAPI",
-  "main": "index.js",
+  "main": "index.js",  "cypress-cucumber-preprocessor": {"nonGlobalStepDefinitions": true},
   "scripts": {
     "test": "cypress run --headless --parallel --spec 'cypress/e2e/**/*.feature'"
   },
