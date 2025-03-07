@@ -6,6 +6,7 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
+      "types": ["cypress", "@badeball/cypress-cucumber-preprocessor"],
       "moduleResolution": "node",
       "baseUrl": "https://www.google.co.uk",
       "outDir": "dist"

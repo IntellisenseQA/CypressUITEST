@@ -1,34 +1,40 @@
 {
-  "name": "cypressautomatio",
+  "name": "cypressautomation",
   "version": "1.0.0",
   "description": "UIAPI",
-  "main": "index.js",  "cypress-cucumber-preprocessor": {"nonGlobalStepDefinitions": true},
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "scripts": {
     "test": "cypress run --headless --parallel --spec 'cypress/e2e/**/*.feature'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IntellisenseQA/CypressUITEST.git"
+    "url": "git+https://github.com/IntellisenseQA/CypressUIAPI.git"
   },
   "author": "sushira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IntellisenseQA/CypressUITEST/issues"
+    "url": "https://github.com/IntellisenseQA/CypressUIAPI/issues"
   },
-  "homepage": "https://github.com/IntellisenseQA/CypressUITEST#readme",
+  "homepage": "https://github.com/IntellisenseQA/CypressUIAPI#readme",
   "dependencies": {
     "@cucumber/cucumber": "^11.2.0",
     "@types/cypress": "^1.1.6",
-    "axios": "^1.8.1",
+    "chai": "^5.2.0",
     "cucumber": "^6.0.7",
-    "cypress": "^14.1.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "multiple-cucumber-html-reporter": "^3.9.2",
-    "typescript": "^5.8.2"
+    "multiple-cucumber-html-reporter": "^3.9.2"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
-    "@cypress/webpack-preprocessor": "^6.0.2"
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "@types/node": "^22.13.9",
+    "axios": "^1.8.2",
+    "cypress": "^14.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }

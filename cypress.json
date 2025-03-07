@@ -1,0 +1,7 @@
+{
+    "testFiles": "**/*.feature",
+    "cypress-cucumber-preprocessor": {
+      "stepDefinitions": "cypress/integration/step_definitions"
+    }
+  }
+  
