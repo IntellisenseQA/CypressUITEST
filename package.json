@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IntellisenseQA/CypressUIAPI.git"
+    "url": "git+https://github.com/IntellisenseQA/CypressUITEST.git"
   },
   "author": "sushira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IntellisenseQA/CypressUIAPI/issues"
+    "url": "https://github.com/IntellisenseQA/CypressUITEST/issues"
   },
-  "homepage": "https://github.com/IntellisenseQA/CypressUIAPI#readme",
+  "homepage": "https://github.com/IntellisenseQA/CypressUITEST#readme",
   "dependencies": {
     "@cucumber/cucumber": "^11.2.0",
     "@types/cypress": "^1.1.6",
