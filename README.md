@@ -12,11 +12,13 @@ This application was tailored to test <https://exampletesturl> but you can run i
 ## Project Structure
 .
 - cypress
-  - e2e
-  - support
+  - integration
     - pageObjects
+    - features
     - step_definitions
-  - fixtures
+  - plugins
+  - support
+  - videos
 
 ## Run tests
 
