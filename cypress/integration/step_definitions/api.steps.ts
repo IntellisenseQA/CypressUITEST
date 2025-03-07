@@ -1,4 +1,5 @@
 import { Given, Then } from "@cucumber/cucumber";
+//import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor"; 
 import axios from "axios";
 
 let response: any;
@@ -8,7 +9,7 @@ Given("I make a {string} request to {string} with payload:", async (method: stri
   response = await axios({
     method,
     url: `https://example.com${endpoint}`,
-    data,
+    data, 
   });
 });
 

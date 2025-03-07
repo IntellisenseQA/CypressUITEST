@@ -1,7 +1,7 @@
 class loginPage{
 
     visit(){
-        cy.visit('/TESTURL');
+        cy.visit('/webhp');
     }
     createorderbutton(){
         //cy.get('#btnCreateOrder').click()

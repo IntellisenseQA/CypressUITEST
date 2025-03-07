@@ -1,10 +1,17 @@
-
-  {
+{
     "compilerOptions": {
-        "esModuleInterop": true,
-        "baseUrl": "./",
-        "paths": {
-            "@pages/*": ["cypress/integration/pages/*"]
-        }
-    }
-}
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "baseUrl": "https://www.google.co.uk",
+      "outDir": "dist"
+    },
+    "include": [
+      "cypress/**/*.ts"
+    ]
+  }
+  

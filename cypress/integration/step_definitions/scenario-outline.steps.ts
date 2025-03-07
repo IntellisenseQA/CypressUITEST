@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import LoginPage  from '../../integration/pages/loginPage';
+import LoginPage  from '../pages/loginPage';
 
 const loginPage = new LoginPage();
 
